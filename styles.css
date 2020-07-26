@@ -1,5 +1,7 @@
 html, body {
     height: 99%;
+    width: 100%;
+    margin: 0;
 }
 
 .main-elements {
@@ -107,7 +109,10 @@ li {
 }
 
 .top-navbar {
+    position: relative;
+    top: 1%;
     height: 50px;
+    margin-left: 5px;
 }
 
 .topnavbar-basic-buttons {
@@ -157,4 +162,51 @@ a:visited {
   display: block;
   margin: -1px;
 
+}
+
+.bottom-navbar1 {
+    height: 36px;
+    position:relative;
+    bottom: -54%;
+    border-top: 1px solid #e4e4e4;
+    background: #f2f2f2;
+    line-height: 38px;
+    width: auto;
+    
+}
+
+#location {
+    font-size: 15px;
+    text-align: left;
+    color: rgba(0,0,0,.54);
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+    
+}
+
+.bottom-navbar2 {
+    height: 36px;
+    position:relative;
+    bottom: -54%;
+    border-top: 1px solid #e4e4e4;
+    background: #f2f2f2;
+    line-height: 40px;
+}
+
+.bottomnavbar-left-buttons {
+    color: #5f6368;
+    text-decoration: none;
+    padding-left: 27px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.bottomnavbar-right-buttons {
+    color: #5f6368;
+    text-decoration: none;
+    padding-left: 27px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    position: relative;
+    right: -71%;
 }
