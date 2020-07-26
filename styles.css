@@ -96,10 +96,65 @@ input:focus, textarea:focus, select:focus{
 
 }
 
-#left-main-button {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+.top-navbar {
+    height: 50px;
+}
+
+.topnavbar-basic-buttons {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: .75;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    position: relative;
+    margin-top: 15px;
+    
+    
 
 }
 
-#right-main-button {
+a:visited {
+    color: #000;
+}
+
+.topnavbar-right-buttons {
+    position:relative;
+    left: 83%;
+}
+
+.topnavbar-pictures {
+    position: relative;
+    left: 25px;
+    top: 9px;
+    margin-right: 20px;
+    
+}
+
+#topnavbar-grid {
+  height: 23px;
+  position: relative;
+  top: 11px;
+}
+
+#topnavbar-picture {
+  height: 32px;
+  width: 32px;
+  background-size: 32px 32px;
+  border: 0;
+  border-radius: 50%;
+  display: block;
+  margin: -1px;
 
 }
