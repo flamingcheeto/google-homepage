@@ -1,0 +1,15 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+
+#main-logo {
+    grid-row: 2 / 3;
+    align-self: center;
+    position: relative;
+    left: 50%;
+    bottom: 30%;
+}
+
