@@ -1,17 +1,61 @@
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 10% 80% 10%;
+html, body {
+    height: 99%;
+}
+
+.main-elements {
+    position: relative;
+    top: 19%;
+    height: 35%
 }
 
 #main-logo {
-    grid-row: 2 / 3;
-    align-self: center;
     position: relative;
     left: 50%;
-    bottom: 30%;
+    top: 30%;
     margin-left: -136px;
-
 }
 
+#search-bar {
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    width: 584px;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    left: 0%;
+    bottom: -10%;
+}
+
+#input-text-box {
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 84%;
+    background-color: transparent;
+    border-width: 0px;
+    border-bottom-color: transparent;
+    position: relative;
+    left: 5%;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+#magnifying-glass {
+    height: 18px;
+    position: relative;
+    left: 3%;
+    top: 11%;
+    margin: 0;
+}
+
+#microphone {
+    height: 20px;
+    position: relative;
+    right: -6%;
+    top: 12%;
+}
